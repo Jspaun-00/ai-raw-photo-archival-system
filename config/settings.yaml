@@ -1,0 +1,60 @@
+# Configuration settings for AI-Powered Photo & RAW Archival System
+
+paths:
+  source_dir: "~/Desktop/Photo"
+  destination_dir: "~/Desktop/Organized_Photos"
+  cache_dir: "./cache"
+  data_dir: "./data"
+  logs_dir: "./logs"
+  ref_faces_dir: "./reference_faces"
+  directive_file: "./config/directive.txt"
+  db_path: "./data/photo_archive.db"
+
+processing:
+  vlm_model: "qwen2.5vl:7b"
+  supported_extensions:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".heic"
+    - ".heif"
+    - ".webp"
+    - ".tif"
+    - ".tiff"
+    - ".bmp"
+    - ".nef"
+    - ".iiq"
+    - ".arw"
+    - ".cr2"
+    - ".cr3"
+    - ".dng"
+    - ".raf"
+    - ".orf"
+    - ".rw2"
+    - ".pef"
+    - ".srw"
+    - ".3fr"
+  queue_maxsize: 200
+  vram_flush_interval: 1000
+  phash_similarity_threshold: 4
+  burst_timeline_window_seconds: 6.0
+  confidence_review_threshold: 0.70
+  aspect_ratio_pano_threshold: 2.1
+
+taxonomy:
+  Landscape: "01_Landscapes_&_Travel"
+  Travel: "01_Landscapes_&_Travel"
+  Ranch: "02_Ranch_&_Western"
+  Family: "03_Family_&_Personal"
+  Pets: "04_Pets_&_Animals"
+  Wildlife: "05_Wildlife_&_Nature"
+  Macro: "06_Macro_&_Details"
+  Food: "07_Food_&_Culinary"
+  Documents: "08_Documents_&_Tech"
+  Technology: "08_Documents_&_Tech"
+  Architecture: "09_Architecture_&_Interiors"
+  Interior: "09_Architecture_&_Interiors"
+  Aerial: "10_Aerial_&_Aviation"
+  Panoramas: "11_Panoramas"
+  Review: "99_Review_Queue"
+  Unclassified: "00_Unclassified"

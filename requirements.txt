@@ -1,0 +1,26 @@
+# AI-Powered RAW Photo Archival System (v2.0)
+# Dependencies for multi-threaded extraction, VLM inference, biometric matching, sidecar generation, and dashboard monitoring.
+
+# Core Image & Exif Processing
+PyExifTool>=0.5.6
+Pillow>=10.0.0
+imagehash>=4.3.1
+
+# AI Inference (Ollama Client)
+ollama>=0.3.0
+
+# Terminal UI & Progress Monitoring
+rich>=13.7.0
+
+# Live Web Dashboard
+streamlit>=1.35.0
+pandas>=2.2.0
+
+# Optional Biometric Recognition (insightface / opencv)
+opencv-python-headless>=4.9.0.80
+insightface>=0.7.3
+numpy>=1.26.0
+
+# Configuration Management
+pyyaml>=6.0.1
+

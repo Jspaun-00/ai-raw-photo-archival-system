@@ -1,0 +1,38 @@
+# Environments & Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Heavy local binaries (installed via install_tools.sh)
+bin/ollama
+bin/exiftool
+bin/lib/
+bin/
+
+# Local databases, caches & logs
+data/*.db*
+*.db
+*.db-shm
+*.db-wal
+cache/
+logs/
+*.log
+
+# Personal reference photos & faces
+reference_faces/*
+!reference_faces/.gitkeep
+
+# macOS & Editor
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+Thumbs.db
+.vscode/
+.idea/
