@@ -11,11 +11,17 @@ Production-grade, unattended local archival and metadata enrichment pipeline for
 
 ---
 
-## 🖥️ Live Control Hub
+## 🖥️ Live Control Hub & Analytics
 
-![Photo Archival System UI](assets/photo_archival_ui.png)
+<p align="center">
+  <img src="assets/photo_archival_ui.png" width="850" alt="Photo Archival System Console" />
+</p>
+<p align="center"><em>Interactive Archival Console: Real-time system telemetry, pipeline controls, format support, and ingestion mode selector.</em></p>
 
-*Streamlit Control Hub: Live real-time progress monitor, taxonomy distribution breakdown, confidence ratings, and review queue.*
+<p align="center">
+  <img src="assets/photo_archival_analytics.png" width="850" alt="Taxonomy and Confidence Analytics" />
+</p>
+<p align="center"><em>Analytics & Taxonomy Engine: 12-Bucket category distribution, geographic breakdown, and VLM confidence scoring.</em></p>
 
 ---
 
