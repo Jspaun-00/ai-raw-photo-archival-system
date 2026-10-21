@@ -1,6 +1,21 @@
-# AI-Powered RAW Photo Archival System (v2.0)
+# 📸 AI-Powered RAW Photo Archival System (v2.0)
 
-Production-grade, unattended local archival pipeline for massive professional RAW collections (Phase One `.IIQ`, Nikon `.NEF`, Sony `.ARW`, Canon `.CR2`/`.CR3`, `.DNG`).
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![InsightFace](https://img.shields.io/badge/Biometrics-InsightFace-00A67E?style=for-the-badge)](https://insightface.ai)
+[![ExifTool](https://img.shields.io/badge/Metadata-ExifTool-333333?style=for-the-badge)](https://exiftool.org)
+[![SQLite](https://img.shields.io/badge/Storage-SQLite%20WAL-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org)
+[![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)](#)
+
+Production-grade, unattended local archival and metadata enrichment pipeline for massive professional RAW collections (Phase One `.IIQ`, Nikon `.NEF`, Sony `.ARW`, Canon `.CR2`/`.CR3`, `.DNG`). Employs local vision language models, biometric facial recognition, perceptual deduplication, and atomic file routing.
+
+---
+
+## 🖥️ Live Control Hub
+
+![Photo Archival System UI](../portfolio-assets/photo_archival_ui.png)
+
+*Streamlit Control Hub: Live real-time progress monitor, taxonomy distribution breakdown, confidence ratings, and review queue.*
 
 ---
 
@@ -109,4 +124,3 @@ Once `router.py` finishes organizing files on your NAS:
 3. Select your organized root directory: `/Volumes/NAS_Photos/Organized Archive`
 4. **CRITICAL:** Select **ADD** at the top center of the import window. *(Do not select Copy or Move).*
 5. Lightroom will read all AI tags, locations, and biometric face tags directly from the Dublin Core `.xmp` and `.IIQ.xmp` sidecars.
-
