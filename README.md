@@ -13,7 +13,7 @@ Production-grade, unattended local archival and metadata enrichment pipeline for
 
 ## 🖥️ Live Control Hub
 
-![Photo Archival System UI](../portfolio-assets/photo_archival_ui.png)
+![Photo Archival System UI](assets/photo_archival_ui.png)
 
 *Streamlit Control Hub: Live real-time progress monitor, taxonomy distribution breakdown, confidence ratings, and review queue.*
 
